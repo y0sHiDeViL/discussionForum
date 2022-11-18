@@ -5,6 +5,7 @@ import javax.persistence.*;
 @SuppressWarnings("ALL")
 @Entity
 @Table(name = "users_test")
+//test
 public class User {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
